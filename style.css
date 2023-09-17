@@ -1,0 +1,286 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+header {
+    width: 100%;
+    height: 100vh;
+    padding: 15px 30px;
+    background-image: url("https://images.pexels.com/photos/2760243/pexels-photo-2760243.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: rgb(189, 189, 189);
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+}
+header nav img{
+    width: 200px;
+    height: 100px;
+    cursor: pointer;
+}
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+header .ul-list {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    list-style: none;
+}
+.ul-list li a {
+    color: rgb(189, 189, 189);
+    font-weight: 500;
+}
+.ul-list li a:hover {
+    font-size: 25px;
+}
+a {
+    text-decoration: none;
+}
+#home {
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+#home h1 {
+    font-size: 85px;
+    font-weight: 700;
+}
+#home p {
+    font-size: 25px;
+    text-align: center;
+}
+#home button {
+    color: white;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(44, 66, 115);
+    border-style: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 15px;
+}
+h2 {
+    font-family: "Abril Fatface",serif;
+    font-weight: 700;
+    text-transform: initial;
+    color: #244262;
+    font-size: 40px;
+    line-height: 1.1em;
+    margin: 25px 0;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+.subtitulos{
+    color: #8c8c8c;
+    font-size: 16px;
+    font-weight: 600;
+}
+.main-productos{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+.ul-icons {
+    display: flex;
+    align-content: stretch;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 20px;
+}
+.productos-container{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+.productos-container a {
+    font-size: 13px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #8c8c8c;
+    cursor: pointer;
+}
+.productos-container img {
+    cursor: pointer;
+}
+.productos-container a:hover {
+    color: #244262;
+}
+
+.main-procesos {
+    width: 100%;
+    height: 500px;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-image: url("https://www.tregar.com.ar/wp-content/uploads/2022/01/IMG_8330-01.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.main-procesos h2 {
+    font-family: "Abril Fatface",serif;
+    font-weight: 700;
+    text-transform: initial;
+    color: whitesmoke;
+    font-size: 60px;
+    line-height: 1.1em;
+    margin: 25px 0;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+.main-procesos button {
+    color: white;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(44, 66, 115);
+    border-style: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.main-nosotros {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(246, 175, 186, 0.545);
+    display: grid;
+    place-content: center;
+}
+.nuestra-historia {
+    width: 40%;
+    margin: 0 auto;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #234263;
+    color: white;
+    padding: 35px 70px;
+    line-height: 24px;
+}
+.nuestra-historia h2 {
+    font-family: "Abril Fatface",serif;
+    font-weight: 700;
+    text-transform: initial;
+    color: white;
+    font-size: 50px;
+    line-height: 1.03em;
+    word-wrap: break-word;
+}
+.nuestra-historia p {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.nuestra-historia button {
+    color: white;
+    width: 150px;
+    height: 40px;
+    background-color: #234263;
+    cursor: pointer;
+    font-size: 15px;
+    border: 0.5px solid whitesmoke;
+    letter-spacing: 4px;
+}
+#tambo {
+    border-radius: 50%;
+    position: absolute;
+    left: -190px;
+    width: 236px;
+    height: 236px;
+}
+#vaca {
+    width: 310px;
+    height: 206px;
+    position: absolute;
+    right: -110px;
+    bottom: -86px;
+}
+
+
+.main-materiaprima {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.nuestra-mp-fotos {
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 25px;
+}
+.nuestra-mp-fotos img {
+    width: 323px;
+    height: 323px;
+}
+.nuestra-mp-info-container {
+    width: 80%;
+    height: auto;
+    margin: 80px auto;
+    display: flex;
+    text-align: center;
+}
+.nuestra-mp-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#mp-leche {
+    color: #244262;
+    font-family: overpass;
+    font-size: 13px;
+    letter-spacing: 9px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+.nuestra-mp-info h2 {
+    font-size: 46px;
+}
+.nuestra-mp-info h4 {
+    color: #848484;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+#mp-text {
+    font-family: "PT Sans",sans-serif;
+    font-size: 15px;
+    line-height: 1.5em;
+    font-weight: 500;
+    color: #848484;
+}
+.nuestra-mp-info button {
+    color: white;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(44, 66, 115);
+    border-style: none;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 30px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
