@@ -284,3 +284,97 @@ h2 {
     letter-spacing: 3px;
     font-weight: bold;
 }
+
+.main-recetas {
+    width: 100%;
+    height: 500px;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 17px;
+    background-image: url("./imagenes/bg-NuestrasRecetas.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.main-recetas h2 {
+    font-family: "Abril Fatface",serif;
+    font-weight: 700;
+    text-transform: initial;
+    color: whitesmoke;
+    font-size: 60px;
+    line-height: 1.1em;
+    margin: 25px 0;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+.main-recetas button {
+    color: white;
+    width: 160px;
+    height: 50px;
+    background-color: rgb(44, 66, 115);
+    border-style: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: .8px;
+}
+
+.main-contacto {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.contacto-ubi {
+    width: 80%;
+    height: auto;
+    margin: 70px auto;
+    display: flex;
+    gap: 25px;
+}
+.map-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 7px;
+    padding-left: 45px;
+}
+.map-info-ubi {
+    font-size: 16px;
+    line-height: 1.5em;
+}
+.map-info-titulo {
+    font-size: 16px;
+    line-height: 1.5em;
+    color: rgb(106, 199, 236);
+    margin-top: 13px;
+}
+.map-info-descripcion {
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #8c8c8c;
+}
+.contacto-info {
+    width: 60%;
+    height: auto;
+    margin: 80px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    align-items: center;
+}
+.contacto-info p {
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #8c8c8c;
+}
+.contacto-info ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
