@@ -378,3 +378,75 @@ h2 {
     align-items: center;
     gap: 40px;
 }
+
+
+footer{
+    display: flex;
+    background-color: #244263;
+    height: 600px;
+    gap: 100px;
+    align-items: baseline;
+    justify-content: center;
+    color: white;
+    padding: 125px 0 80px;
+   
+}
+.col-logo{
+    font-family: "PT Sans",sans-serif;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.col-logo img{
+    margin: 0 0 3% 0;
+}
+.col-logo p{
+    font-size: 14px;
+    font-family: "PT Sans",sans-serif;
+    margin: 3px;
+}
+.col-ul {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: "Abril Fatface",serif;
+    list-style: none;
+    font-weight: 800;
+}
+.col-ul p{
+    color: white;
+    padding: 25px;
+    margin: 10;
+}
+.redes h1{
+    font-weight: 800;
+    font-family: "Abril Fatface",serif;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.list-redes{
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+    list-style: none;
+    margin-top: 50px;
+
+
+}
+.list-redes img{
+    width: 40px;
+    height: 37px;
+}
+.qr-empresa{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+   
+}    
+.qr-empresa img {
+    width: 40px;
+    height: 55px;
+}
